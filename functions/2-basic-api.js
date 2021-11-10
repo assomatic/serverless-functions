@@ -9,3 +9,5 @@ exports.handler = async (event, context) => {
     body: JSON.stringify(items),
   };
 };
+
+// headers erlaubt Zugriff auch von ausserhalb des Apps
